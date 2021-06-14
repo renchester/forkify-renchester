@@ -1,0 +1,22 @@
+{
+  "name": "starter2",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.34.1"
+  },
+  "dependencies": {
+    "core-js": "^3.14.0",
+    "fractional": "^1.0.0",
+    "regenerator": "^0.14.7"
+  }
+}

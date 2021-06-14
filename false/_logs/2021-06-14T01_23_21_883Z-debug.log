@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build',
+1 verbose cli   '--no-cache'
+1 verbose cli ]
+2 info using npm@6.14.12
+3 info using node@v14.16.1
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle starter2@1.0.0~prebuild: starter2@1.0.0
+6 info lifecycle starter2@1.0.0~build: starter2@1.0.0
+7 verbose lifecycle starter2@1.0.0~build: unsafe-perm in lifecycle true
+8 verbose lifecycle starter2@1.0.0~build: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Renchester\Desktop\Javascript Course\complete-javascript-course-master\18-forkify\starter2\node_modules\.bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\WINDOWS\System32\OpenSSH\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Renchester\AppData\Local\Microsoft\WindowsApps;;C:\Users\Renchester\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Renchester\AppData\Roaming\npm
+9 verbose lifecycle starter2@1.0.0~build: CWD: C:\Users\Renchester\Desktop\Javascript Course\complete-javascript-course-master\18-forkify\starter2
+10 silly lifecycle starter2@1.0.0~build: Args: [ '/d /s /c', 'parcel build index.html' ]
+11 silly lifecycle starter2@1.0.0~build: Returned: code: 1  signal: null
+12 info lifecycle starter2@1.0.0~build: Failed to exec build script
+13 verbose stack Error: starter2@1.0.0 build: `parcel build index.html`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:315:20)
+13 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:315:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+14 verbose pkgid starter2@1.0.0
+15 verbose cwd C:\Users\Renchester\Desktop\Javascript Course\complete-javascript-course-master\18-forkify\starter2
+16 verbose Windows_NT 10.0.19042
+17 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "build" "--no-cache"
+18 verbose node v14.16.1
+19 verbose npm  v6.14.12
+20 error code ELIFECYCLE
+21 error errno 1
+22 error starter2@1.0.0 build: `parcel build index.html`
+22 error Exit status 1
+23 error Failed at the starter2@1.0.0 build script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
